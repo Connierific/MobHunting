@@ -73,7 +73,7 @@ public class AchievementsCommand implements ICommand {
 		final boolean self = (player == sender);
 
 		if (args.length == 1 && args[0].equalsIgnoreCase("help")) {
-			sender.sendMessage("list all archivement descriptions");
+			sender.sendMessage("list all achivement descriptions");
 			MobHunting.getAchievementManager().listAllAchievements(sender);
 
 		} else if (args.length == 1 && (args[0].equalsIgnoreCase("nogui") || args[0].equalsIgnoreCase("gui"))) {
